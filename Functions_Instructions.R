@@ -1,4 +1,27 @@
 
+#########################################
+########## Loading libraries ############
+#########################################
+
+library(MASS)
+library(spatstat)
+library(segmented)
+
+
+#########################################
+##### Creating working directory ########
+#########################################
+
+setwd("C:/Users/UNAL/Desktop/Clustering_in_Linear_Networks/Functions")
+
+source("rates_localdetect.R")
+source("class_net.R")
+source("nncleanEngine2.R")
+source("dknn2.R")
+source("calculate_statistics.R")
+source("class_net_Engine.R")
+
+
 ##### Instructions for using the classification method ######
 
 
